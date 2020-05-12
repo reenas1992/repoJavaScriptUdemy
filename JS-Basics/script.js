@@ -73,7 +73,7 @@ console.log(now - 3);
 var boolAgeOlder = intAgeReena < intAgeSameer;
 console.log(boolAgeOlder);
 
-// Type of operator
+//// Type of operator
 console.log(typeof boolAgeOlder);
 console.log(typeof intAgeReena);
 console.log(typeof "Sameer is older tha Reena");
