@@ -81,31 +81,31 @@
 // console.log(typeof x);
 
 /*** Operator Precedence ***/
-var intNow = 2020;
-var intYearReena = 1992;
-var intFullAge = 20;
+// var intNow = 2020;
+// var intYearReena = 1992;
+// var intFullAge = 20;
 
 // Multiple Operator
-var boolIsFullAge = intNow - intYearReena >= intFullAge; //true
-console.log(boolIsFullAge);
+// var boolIsFullAge = intNow - intYearReena >= intFullAge; //true
+// console.log(boolIsFullAge);
 
 //Grouping
-var intAgeReena = intNow - intYearReena;
-var intAgeSameer = 32;
-var fAverage = (intAgeReena + intAgeSameer) / 2;
-console.log(fAverage);
+// var intAgeReena = intNow - intYearReena;
+// var intAgeSameer = 32;
+// var fAverage = (intAgeReena + intAgeSameer) / 2;
+// console.log(fAverage);
 
 //Multiple Assignments
-var x, y;
-x = y = (5 + 4) * 3 - 7; // 4*7-5//49-4// 20
+// var x, y;
+// x = y = (5 + 4) * 3 - 7; // 4*7-5//49-4// 20
 
 //More Operator
-x *= 2;
-console.log(x);
-x += 20;
-console.log(x);
-x--;
-console.log(x);
+// x *= 2;
+// console.log(x);
+// x += 20;
+// console.log(x);
+// x--;
+// console.log(x);
 
 /*****************************
  * CODING CHALLENGE 1
@@ -137,33 +137,45 @@ console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 */
 
 /*** If / else Statement ***/
-var strFirstName = "Jhone";
-var strCivilStatus = "Single";
+// var strFirstName = "Jhone";
+// var strCivilStatus = "Single";
 
-if (strCivilStatus == "married") {
-  console.log(strFirstName + " is married!");
-} else {
-  console.log(strFirstName + " will hopefully marry soon : ");
-}
+// if (strCivilStatus == "married") {
+//   console.log(strFirstName + " is married!");
+// } else {
+//   console.log(strFirstName + " will hopefully marry soon : ");
+// }
 
-var boolIsMarried = true;
-if (boolIsMarried) {
-  console.log(strFirstName + " is married! ");
-} else {
-  console.log(strFirstName + " will hopefully marry soon : ");
-}
+// var boolIsMarried = true;
+// if (boolIsMarried) {
+//   console.log(strFirstName + " is married! ");
+// } else {
+//   console.log(strFirstName + " will hopefully marry soon : ");
+// }
 
-var massMark = 80; // kg
-var heightMark = 1.79; //meters
+// var massMark = 80; // kg
+// var heightMark = 1.79; //meters
 
-var massJohn = 89;
-var heightJohn = 1.92;
+// var massJohn = 89;
+// var heightJohn = 1.92;
 
-var BMIMark = massMark / (heightMark * heightMark);
-var BMIJohn = massJohn / (heightMark * heightMark);
+// var BMIMark = massMark / (heightMark * heightMark);
+// var BMIJohn = massJohn / (heightMark * heightMark);
 
-if (BMIMark > BMIJohn) {
-  console.log("Mark's BMI is highter than Jhon's. ");
-} else {
-  console.log("Jhon's BMI is highter than Mark's. ");
+// if (BMIMark > BMIJohn) {
+//   console.log("Mark's BMI is highter than Jhon's. ");
+// } else {
+//   console.log("Jhon's BMI is highter than Mark's. ");
+// }
+
+/*** Boolean Logic ***/
+var strFirstName = "Reena";
+var intAge = 27;
+
+if (intAge < 20) {
+  console.log(strFirstName + " is a girl .");
+} else if (intAge >= 20 && intAge < 25) {
+  console.log(strFirstName + "is a young girl. ");
+} else if (intAge > 25 && intAge < 30) {
+  console.log(strFirstName + " is a woman. ");
 }
